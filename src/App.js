@@ -26,7 +26,7 @@ function App() {
         <div className="sidebar">
           <div className="actions">
           <DarkMode/>
-          <button onClick={handleGenerateCv}><PictureAsPdf/></button>
+          <button className="action__pdf" onClick={handleGenerateCv}><PictureAsPdf/></button>
           </div>
           <User />
           <Skills />

@@ -134,8 +134,15 @@ li{
     grid-template-columns: 1fr 2fr;
     margin: 0;
   }
+
 }
 
+@media (max-width:767px) {
+  .action__pdf{
+    display: none
+  }
+  
+}
 .sidebar{
   padding: 1.5rem;
   background-color: var(--sidebar-bg-color);
@@ -181,7 +188,7 @@ li{
   width: 100% !important;
  
 } 
-
+@media screen and (min-width: 256px) {
 .cv-print .actions{
   display: none;
 }
@@ -217,4 +224,4 @@ li{
 .cv-print .grid__date {
   margin-top:5px;
 }
-
+}
