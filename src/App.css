@@ -176,7 +176,7 @@ li{
 .main{
   padding: 1.5rem;
 }
-
+ 
 #cv-print {
   width: 100% !important;
  
@@ -207,7 +207,8 @@ li{
   height: 297mm;
 }
 .cv-print .user__infos svg {
-  display: none !important;
+  width:10px;
+  height:10px;
 }
 .cv-print .circle {
   width:10px;
@@ -216,3 +217,4 @@ li{
 .cv-print .grid__date {
   margin-top:5px;
 }
+
