@@ -1,0 +1,25 @@
+
+.grid{
+    
+    &__item{
+    margin-bottom: var(--spacing-1);
+    }
+
+    &__item p {
+        margin-bottom: var(--spacing-1);
+        }
+
+    &__date{
+        font-weight: 500;
+        
+    }
+
+    &__title{
+        margin-bottom: 0;
+    }
+
+    &__location{
+        color: var(--date-color);
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,28 @@
+.user{
+    text-align: center;
+
+    &__avatar{
+        border-radius: 50%;
+        width: 7rem;
+        height: 9rem;
+    }
+
+    &__infos{
+        text-align: left;
+        padding: var(--spacing-1) 0 var(--spacing-1);
+    }
+
+    &__info{
+        display: flex;
+    }
+
+    &__info svg{
+        //color: var(--icon-color);
+        margin-right: 1rem;
+    }
+
+    &__name{
+        font-size: 1rem;
+    }
+}
+
