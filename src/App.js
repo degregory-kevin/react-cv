@@ -1,9 +1,9 @@
 import './App.css';
-import User from './components/User';
-import Skills from './components/Skills'
-import Profil from './components/Profil';
-import FormationsExperiences from './components/FormationsExperiences';
-import DarkMode from './components/DarkMode';
+import User from '../components/User';
+import Skills from '../components/Skills'
+import Profil from '../components/Profil';
+import FormationsExperiences from '../components/FormationsExperiences';
+import DarkMode from '../components/DarkMode';
 import { Preview, print } from "react-html2pdf";
 import { PictureAsPdf } from '@material-ui/icons';
 
