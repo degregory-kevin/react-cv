@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;700&family=Yomogi&');
 
 *, ::before, ::after{
   margin: 0;
@@ -9,7 +10,7 @@
 :root {
 
   --body-bg-color: #ffffff;
-  --sidebar-bg-color: #f4f4f4;
+  --sidebar-bg-color: #c9c9ca;
   --text-color: #333333;
   --title-color: #111111;
   --date-color: #1f94c2;
@@ -55,6 +56,7 @@ body{
 }
 
 h1, h2, h3{
+  font-family: 'Noto Serif JP', serif;
   margin-bottom: var(--spacing-1);
   font-weight: 400;
   color: var(--title-color);
