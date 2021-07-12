@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import './user.scss'
 import {Home, Phone, Mail, Event, LocationOn, LinkedIn} from "@material-ui/icons"
@@ -21,7 +22,7 @@ const User = () => {
                         degregory.kevin@gmail.com
                     </a>
                     </p>
-                    <p className="user__info"> <LinkedIn/><a href="https://www.linkedin.com/in/k%C3%A9vin-degregory-060919203/" target="_blank" > Profil LinkedIn</a></p>
+                    <p className="user__info"> <LinkedIn/><a href="https://www.linkedin.com/in/k%C3%A9vin-degregory-060919203/" target="_blank" rel="noreferrer" > Profil LinkedIn</a></p>
                     <p className="user__info">  <Event/> Date de naisssance: 03 septembre 1992</p>
                     <p className="user__info"> <LocationOn/> Lieu de naissance: Bordeaux</p>
                     
