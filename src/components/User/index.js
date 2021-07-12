@@ -7,7 +7,7 @@ import {Home, Phone, Mail, Event, LocationOn, LinkedIn} from "@material-ui/icons
 const User = () => {
     return (
         <div className="user">
-              <img src="./images/avatar.jpg" alt="Photo de Kévin Degregory" className="user__avatar" />  
+               
                 <h1 className="user__name">Kévin Degregory</h1>
                 <p className="user__profession">Développeur Web Junior JS REACT</p>
                 <div className="user__infos">
